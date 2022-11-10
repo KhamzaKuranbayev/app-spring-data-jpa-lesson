@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/autoshopdb
+    username: postgres
+    password: Web@adm!n!23
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
